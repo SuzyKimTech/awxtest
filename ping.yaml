@@ -1,0 +1,6 @@
+---
+- hosts: server2
+  remote_user: test
+  tasts:
+    - name: test connection
+      ping:
